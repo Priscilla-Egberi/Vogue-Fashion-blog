@@ -36,7 +36,7 @@ export default function Header() {
                             <div className='logo'>
                                 <img src="https://ikken.fueko.net/content/images/2019/08/ikken.svg" alt="" width="150px" />
                             </div>
-                            <p className='cloud d-none d-md-block'>Thoughts, stories and ideas</p>
+                            <p className='vertical-text d-none d-md-block'>Thoughts, stories and ideas</p>
                         </div>
                         <div className="post-content text-center text-md-start" >
 
@@ -68,7 +68,7 @@ export default function Header() {
 
                         </div>
                     </Col>
-                    <Col sm={12} md={6} className="coll order-md-1" style={{ background: `${data.imgsrc} no-repeat center` }}></Col>
+                    <Col sm={12} md={6} className="coll order-md-1" style={{ background: `${data.imgsrc} no-repeat center/cover` }}></Col>
                 </Row>
             </SwiperSlide>
             ))}
