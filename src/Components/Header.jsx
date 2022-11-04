@@ -11,10 +11,12 @@ import { FaAward } from "react-icons/fa"
 export default function Header() {
     const datas = [
                     { imgsrc: "url(https://images.unsplash.com/photo-1526887520775-4b14b8aed897?ixlib=rb-1.2.1&q=70&fm=jpg&crop=entropy&cs=tinysrgb&w=768&fit=max&ixid=eyJhcHBfaWQiOjExNzczfQ)", writer:"by Megan Anderson & Charles Barrett" },
-                    { imgsrc: "url(https://images.unsplash.com/photo-1504051771394-dd2e66b2e08f?ixlib=rb-1.2.1&q=70&fm=jpg&crop=entropy&cs=tinysrgb&w=768&fit=max&ixid=eyJhcHBfaWQiOjExNzczfQ)", writer:"by Megan Anderson & Charles Barrett" }
+                    { imgsrc: "url(https://images.unsplash.com/photo-1504051771394-dd2e66b2e08f?ixlib=rb-1.2.1&q=70&fm=jpg&crop=entropy&cs=tinysrgb&w=768&fit=max&ixid=eyJhcHBfaWQiOjExNzczfQ)", writer:"by Hannah Lee, Victoria West & David Cole"},
+                    { imgsrc: "url(https://images.unsplash.com/photo-1506634572416-48cdfe530110?ixlib=rb-1.2.1&q=70&fm=jpg&crop=entropy&cs=tinysrgb&w=768&fit=max&ixid=eyJhcHBfaWQiOjExNzczfQ)", writer:"4 years ago by David Cole $ Charles Barrett"},
+                    { imgsrc: "url(https://images.unsplash.com/photo-1511407337274-9c172957270e?ixlib=rb-1.2.1&q=70&fm=jpg&crop=entropy&cs=tinysrgb&w=768&fit=max&ixid=eyJhcHBfaWQiOjExNzczfQ)", writer:"by David Cole"},
                 ]
                 
-    const imgsrc = "url(https://images.unsplash.com/photo-1526887520775-4b14b8aed897?ixlib=rb-1.2.1&q=70&fm=jpg&crop=entropy&cs=tinysrgb&w=768&fit=max&ixid=eyJhcHBfaWQiOjExNzczfQ)"
+    
     return (
         <Swiper
             // install Swiper modules
