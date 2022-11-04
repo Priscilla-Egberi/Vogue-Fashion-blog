@@ -32,14 +32,7 @@ export default function Header() {
                 <SwiperSlide >
                 <Row className="" >
                     <Col sm={12} md={6} className="coll order-1 py-3 px-5">
-                        <div className="px-4 py-0 py-md-5">
-                            <div className='logo'>
-                                <img src="https://ikken.fueko.net/content/images/2019/08/ikken.svg" alt="" width="150px" />
-                            </div>
-                            <p className='vertical-text d-none d-md-block'>Thoughts, stories and ideas</p>
-                        </div>
                         <div className="post-content text-center text-md-start" >
-
                             <div className="global-featured mb-5">
                                 <div className="d-flex justify-content-between">
                                     <FaAward size={19} />
